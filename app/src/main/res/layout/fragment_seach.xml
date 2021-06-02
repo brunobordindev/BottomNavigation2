@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.seach.SeachFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Pesquisar"
+            android:background="@drawable/linha_cinza"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:drawableLeft="@drawable/ic__search"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="16dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGTV"
+                android:textColor="@color/black"
+                android:backgroundTint="#F9F9F9"
+                android:layout_marginLeft="16dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viagem"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:backgroundTint="#F9F9F9"
+                android:layout_marginLeft="16dp"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Arquitetura"
+                 android:textAllCaps="false"
+                 android:textColor="@color/black"
+                 android:backgroundTint="#F9F9F9"
+                 android:layout_marginLeft="16dp"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Estilo"
+                 android:textAllCaps="false"
+                 android:textColor="@color/black"
+                 android:backgroundTint="#F9F9F9"
+                 android:layout_marginLeft="16dp"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Comida"
+                 android:textAllCaps="false"
+                 android:textColor="@color/black"
+                 android:backgroundTint="#F9F9F9"
+                 android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:videoId="v_B3qkp4nO4"
+                app:autoPlay="true"
+                app:showYouTubeButton="false"
+                android:layout_marginTop="16dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    app:videoId="v_B3qkp4nO4"
+                    app:autoPlay="true"
+                    app:showYouTubeButton="false"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:layout_width="131dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/um"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="132dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/quatro"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
